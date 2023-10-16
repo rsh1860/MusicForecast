@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "src": "/ec2-15-164-171-149(/.*)?",
+        "dest": "${process.env.REACT_APP_BE_API_URL}/api/:splat",
+        "methods": ["GET", "POST", "PATCH", "DELETE", ""]
+      }
+    ]
+  }
